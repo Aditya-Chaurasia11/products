@@ -1,3 +1,30 @@
+# ProductList
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+  
+## About
+
+A user-friendly product catalog with advanced capabilities like price sorting and category filters. Our focus is on a professional look and seamless usability, including responsiveness.
+
+![Project Logo](./products.jpg)
+
+## Features
+- **Responsive Design:** Ensure the project has a responsive design for a seamless experience on various devices, including mobile phones and tablets.
+
+- **Filtering Options:** Enable users to filter products based on category.
+- **Pagination System:** Implement user-friendly pagination to navigate through the product list, displaying a limited number of products per page.
+- **User Reviews and Ratings:** Allow users to leave reviews and ratings for products, displaying average ratings and user reviews on product pages.
+
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the project.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
