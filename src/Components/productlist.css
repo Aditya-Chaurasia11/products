@@ -46,3 +46,13 @@
   align-items: center;
   gap: 50px;
 }
+
+@media (max-width: 768px) {
+  .product_list_header_filter {
+    gap: 5px;
+  }
+  .product_list_header_filter select {
+    width: 120px;
+    height: 24px;
+  }
+}

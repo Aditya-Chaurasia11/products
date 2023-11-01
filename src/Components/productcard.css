@@ -57,3 +57,25 @@
   background-color: #0242e8;
   color: white;
 }
+
+.product_container:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .product_container {
+    /* border: 1px solid red; */
+    width: 280px;
+    height: 550px;
+    
+  }
+  .product_container_img {
+    height: 250px;
+  }
+  .product_container_img img {
+    height: 180px;
+    width: 180px;
+  }
+}
