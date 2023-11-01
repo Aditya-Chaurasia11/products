@@ -2,7 +2,7 @@
 
 A user-friendly product catalog with advanced capabilities like price sorting and category filters. Our focus is on a professional look and seamless usability, including responsiveness.
 
-![Project Logo]()
+![Project Logo](./products.jpg)
 
 ## Installation
 
@@ -10,8 +10,6 @@ A user-friendly product catalog with advanced capabilities like price sorting an
 2. Run `npm install` to install dependencies.
 3. Run `npm start` to start the project.
 # Getting Started with Create React App
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
