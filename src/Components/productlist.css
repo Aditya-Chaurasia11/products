@@ -1,0 +1,48 @@
+.product_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.product_list_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2%;
+
+  padding-bottom: 1%;
+  padding-left: 7%;
+  flex-wrap: wrap;
+
+  padding-right: 7%;
+}
+
+.product_list_header_filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.product_list_header_filter select {
+  width: 150px;
+  height: 30px;
+}
+
+.productlist_pagination {
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.productlist_pagination_button {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
