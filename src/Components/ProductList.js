@@ -111,7 +111,13 @@ function ProductList() {
             {Array.from(
               { length: Math.ceil(filteredProducts.length / productsPerPage) },
               (_, index) => (
-                <button key={index + 1} onClick={() => paginate(index + 1)}>
+                <button
+                  className={`pagination_button ${
+                    currentPage === index + 1 ? "active" : ""
+                  }`}
+                  key={index + 1}
+                  onClick={() => paginate(index + 1)}
+                >
                   {index + 1}
                 </button>
               )

@@ -47,6 +47,25 @@
   gap: 50px;
 }
 
+.pagination_button {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  color: #0242e8;
+  cursor: pointer;
+  font-weight: 700;
+  border: 2px solid #0242e8;
+  border-radius: 5px;
+}
+.pagination_button:hover {
+  color: white;
+  background-color: #0242e8;
+}
+.active {
+  color: white;
+  background-color: #0242e8;
+}
+
 @media (max-width: 768px) {
   .product_list_header_filter {
     gap: 5px;
